@@ -3,15 +3,15 @@
 ![Web Blog Application GUI](/images/)
 Merupakan Project Magang Web Developer WinniCode untuk membuat Website Blog. Project ini sebagian besar dibuat dengan Laravel.
 
+This Project is Powered by : WinniCode Garuda Teknologi
+![WinniCode Garuda Teknologi](./images/winnicodelogo.png)
+
 ## Images
 
 Inilah Tampilan Sederhana dari Aplikasi Web Blog menggunakan Laravel :
 \
 \
 ![Realtime Temperature Sensor Monitoring App](./images/realtime-temperature-sensor-monitoring-webdev.jpg)
-
-This Project is Powered by : WinniCode Garuda Teknologi
-![WinniCode Garuda Teknologi](./images/winnicodelogo.png)
 
 ## About Laravel
 
