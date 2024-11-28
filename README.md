@@ -11,7 +11,7 @@ This Project is Powered by : WinniCode Garuda Teknologi
 Inilah Tampilan Sederhana dari Aplikasi Web Blog menggunakan Laravel :
 \
 \
-![Realtime Temperature Sensor Monitoring App](./images/realtime-temperature-sensor-monitoring-webdev.jpg)
+![Web Blog Application GUI](./images/lorem-ipsum.jpg)
 
 ## About Laravel
 
