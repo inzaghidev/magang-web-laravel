@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"></link>
-    <title>WinniCode Blog | Posts</title>
-</head>
-<body>
-    <h1>Blog Page</h1>
-</body>
-</html>
+{{-- @dd($posts) --}}
+
+@extends('layouts.main')
+
+@section('container')
+    {{-- <h2>Judul</h2>
+    <h5>Inzaghi</h5>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum explicabo
+        totam quod et adipisci deleniti iusto dolorem temporibus debitis vero
+        asperiores dolore eligendi voluptates accusamus eos cum, dolorum a
+        tenetur.
+    </p> --}}
+
+    <article class="mb-5">
+        @foreach($posts as $post)
+            <h2>
+                <a href="/posts/{{ $post["slug"] }}">{{ $post["title"] }}</a>
+            </h2>
+            <h5>By : {{ $post["author"] }}</h5>
+            <p>{{ $post["body"] }}</p>
+        @endforeach
+    </article>
+
+@endsection
