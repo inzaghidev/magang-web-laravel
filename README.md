@@ -11,7 +11,7 @@ This Project is Powered by : WinniCode Garuda Teknologi
 Inilah Tampilan Sederhana dari Aplikasi Web Blog menggunakan Laravel :
 \
 \
-![Web Blog Application GUI](./images/lorem-ipsum.jpg)
+![Web Blog Application GUI](./images/tampilan-website-blog-sederhana-dengan-laravel.jpg)
 
 ## About Laravel
 
