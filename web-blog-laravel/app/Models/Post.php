@@ -57,3 +57,8 @@ class Post
 
     }
 }
+
+
+// Belajar Laravel 8 | 7. Post Model [WPU]
+// https://www.youtube.com/watch?v=o1em86nhU28
+// https://www.youtube.com/watch?v=o1em86nhU28&list=PLFIM0718LjIWiihbBIq-SWPU6b6x21Q_2&index=8

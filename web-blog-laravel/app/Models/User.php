@@ -46,3 +46,17 @@ class User extends Authenticatable
         ];
     }
 }
+
+// PHP Tinker Commands :
+
+// $user = new App\Models\User;
+// $user = new User;
+// $user->name = 'Inzaghi Posuma';
+// $user->email = 'inzaghi@email.com';
+// $user->password = bcrypt('123456');
+
+// $user->save();         // Untuk menyimpan semua Data ke Database
+// $user->all();          // Untuk menampilkan semua Data pada Database
+// $user->first();        // Untuk menampilkan semua Data Pertama pada Database
+// $user->find(n);        // Untuk menampilkan semua Data Ke-n pada Database
+// $user->findOrFail(n);  // Untuk menampilkan Data ke-n apakah Ada atau Tidak (dengan Pesan Error jika tidak ada)
