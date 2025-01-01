@@ -15,24 +15,34 @@ Inilah Tampilan Sederhana dari Aplikasi Web Blog menggunakan Laravel :
 
 ## Proses Instalasi
 
-Berikut ini adalah Proses Instalasi
+Berikut ini adalah Proses Instalasi hingga Pembuatan Project ini :
 
 Steps :
+
+1. Lingkungan/Environment yang digunakan
+
+Adapun Environment yang kami gunakan dalam Project ini adalah :
+
+- XAMPP
+- PHP & MySQL
+- Composer
 
 1. Persiapan Project
 
 Pertama, buatlah direktori baru untuk proyek Anda dan masuk ke dalamnya :
 
-> mkdir realtime-temperature-sensor
-> cd realtime-temperature-sensor
+> mkdir magang-web-laravel
+> cd web-blog-laravel
 
-Kedua, Inisialisasikan proyek Node.js dan buat file package.json dengan menjalankan perintah :
+Kedua, Inisialisasikan Project Laravel dengan menjalankan perintah Composer :
 
-> npm init -y
+> composer create-project laravel/laravel web-blog-laravel
 
-2. Install Package yang Diperlukan
+2. Menjalankan Project Laravel
 
-> npm install express http socket.io
+Ketiklah :
+
+> php artisan serve
 
 ## About Laravel
 
