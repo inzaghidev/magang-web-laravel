@@ -31,7 +31,7 @@ Adapun Environment yang kami gunakan dalam Project ini adalah :
 
 Pertama, buatlah direktori baru untuk proyek Anda dan masuk ke dalamnya :
 
-> mkdir magang-web-laravel
+> mkdir magang-web-laravel \
 > cd web-blog-laravel .
 
 Kedua, Inisialisasikan Project Laravel dengan menjalankan perintah Composer :
