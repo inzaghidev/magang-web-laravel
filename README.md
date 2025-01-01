@@ -1,6 +1,5 @@
 # Magang-Web-Blog-Laravel
 
-![Web Blog Application GUI](/images/)
 Merupakan Project Magang Web Developer WinniCode untuk membuat Website Blog. Project ini sebagian besar dibuat dengan Laravel.
 
 This Project is Powered by : WinniCode Garuda Teknologi
@@ -47,6 +46,58 @@ Ketiklah :
 ## Folder Structure
 
 Adapun Struktur Folder Direktori dari Project ini adalah :
+
+```
+📁IoT2-WWebapp-QR-Code-Scanner/
+    ├── 📁arduino/
+    │   └─ esp32-cam-barcode-scanner.ino              # File kode Arduino ESP32 CAM
+    ├── 📁barcode-scanner/                             # Backend Laravel untuk API dan Dashboard
+    │   ├── 📁app/
+    │   │   ├── 📁Http/
+    │   │   │   ├── 📁Controllers/
+    │   │   │   │   ├── 📁API/
+    │   │   │   │   │   ├── InventoryApiController.php # Controller untuk API
+    │   │   │   │   └── 📁Web/
+    │   │   │   │       └── InventoryController.php    # Controller untuk halaman produk
+    │   │   ├── 📁Models/
+    │   │   │   └── Inventory.php                      # Model untuk tabel inventory
+    │   │   ├── 📁Providers/
+    │   │   └── 📁Services/
+    │   ├── 📁config/
+    │   ├── 📁database/
+    │   │   ├── 📁factories/
+    │   │   ├── 📁migrations/
+    │   │   │   └── 2024_12_11_021910_create_inventory_table.php    # Migration tabel inventory
+    │   │   └── 📁seeders/
+    │   │       └── InventorySeeder.php                # Seeder untuk data dummy inventory
+    │   ├── 📁public/
+    │   │   ├── 📁css/
+    │   │   │   └── style.css                          # File CSS
+    │   │   └── 📁js/
+    │   │       └── script.js                          # File JavaScript
+    │   ├── 📁resources/
+    │   │   └── 📁views/
+    │   │       ├── 📁layouts/
+    │   │       │   └── main.blade.php                 # Layout utama untuk Laravel Blade
+    │   │       ├── partials/
+    │   │       │   ├── navbar.blade.php               # Layout Navbar untuk Laravel Blade
+    │   │       │   └── sidenav.blade.php              # Layout Side Navigation untuk Laravel Blade
+    │   │       ├── index.blade.php                    # Halaman dashboard utama
+    │   │       ├── products.blade.php                 # Halaman untuk data produk
+    │   │       ├── scanner.blade.php                  # Halaman untuk tampilan produk yang di scan
+    │   │       ├── edit_product.blade.php             # Halaman edit produk
+    │   │       ├── update_product.blade.php           # Halaman update produk
+    │   │       └── delete_product.blade.php           # Halaman hapus produk (destroy)
+    │   ├── 📁routes/
+    │   │   ├── api.php                                # Endpoint untuk API
+    │   │   └── web.php                                # Route untuk halaman web
+    │   ├── 📁storage/
+    │   │── 📁tests/
+    │   └── .env
+    ├── 📁python-opencv/                               # Program Python OpenCV
+    │   └── barcode_scanner.py                         # Script Python untuk membaca QR Code
+    └── README.md                                      # Panduan proyek keseluruhan
+```
 
 ## About Laravel
 
