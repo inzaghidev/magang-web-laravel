@@ -13,6 +13,27 @@ Inilah Tampilan Sederhana dari Aplikasi Web Blog menggunakan Laravel :
 \
 ![Web Blog Application GUI](./images/tampilan-website-blog-sederhana-dengan-laravel.jpg)
 
+## Proses Instalasi
+
+Berikut ini adalah Proses Instalasi
+
+Steps :
+
+1. Persiapan Project
+
+Pertama, buatlah direktori baru untuk proyek Anda dan masuk ke dalamnya :
+
+> mkdir realtime-temperature-sensor
+> cd realtime-temperature-sensor
+
+Kedua, Inisialisasikan proyek Node.js dan buat file package.json dengan menjalankan perintah :
+
+> npm init -y
+
+2. Install Package yang Diperlukan
+
+> npm install express http socket.io
+
 ## About Laravel
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
