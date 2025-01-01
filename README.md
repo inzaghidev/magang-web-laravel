@@ -32,7 +32,7 @@ Adapun Environment yang kami gunakan dalam Project ini adalah :
 Pertama, buatlah direktori baru untuk proyek Anda dan masuk ke dalamnya :
 
 > mkdir magang-web-laravel \
-> cd web-blog-laravel .
+> cd web-blog-laravel
 
 Kedua, Inisialisasikan Project Laravel dengan menjalankan perintah Composer :
 
@@ -43,6 +43,10 @@ Kedua, Inisialisasikan Project Laravel dengan menjalankan perintah Composer :
 Ketiklah :
 
 > php artisan serve
+
+## Folder Structure
+
+Adapun Struktur Folder Direktori dari Project ini adalah :
 
 ## About Laravel
 
