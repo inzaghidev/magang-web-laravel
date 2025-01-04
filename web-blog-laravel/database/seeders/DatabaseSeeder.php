@@ -30,6 +30,12 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('12345'),
         ]);
 
+        User::create([
+            'name' => 'Khoirul Fuadi',
+            'email' => 'fuadi@gmail.com',
+            'password' => bcrypt('12345'),
+        ]);
+
         // Buat kategori
         Category::create([
             'name' => 'Web Programming',
@@ -102,6 +108,27 @@ class DatabaseSeeder extends Seeder
                 magnam accusantium magni praesentium?',
             'category_id' => 2,
             'user_id' => 1
+        ]);
+
+        Post::create([
+            'title' => 'Judul Keempat',
+            'slug' => 'judul-keempat',
+            'excerpt' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod, in
+                suscipit voluptatum ducimus, doloremque eveniet, inventore architecto corporis
+                ut fugit!',
+            'body' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod, in
+                suscipit voluptatum ducimus, doloremque eveniet, inventore architecto corporis
+                ut fugit! Vero voluptatibus odit, sequi distinctio dolor hic enim, ut natus
+                harum iste facere magnam? Perferendis, accusantium magni doloribus aut iusto
+                recusandae culpa aspernatur rerum nostrum et incidunt voluptate dolores
+                molestias dolorem commodi porro possimus modi asperiores. Voluptates, dicta
+                quibusdam! Vitae iure assumenda ad impedit dolore earum sunt laudantium
+                reiciendis? Facilis necessitatibus, impedit, recusandae vitae perspiciatis sint
+                quaerat distinctio beatae deleniti corporis, hic repudiandae fugit. Officiis
+                amet, enim accusamus perferendis rerum possimus impedit omnis distinctio, cumque
+                magnam accusantium magni praesentium?',
+            'category_id' => 2,
+            'user_id' => 2
         ]);
     }
 }

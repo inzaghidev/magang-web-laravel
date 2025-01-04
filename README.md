@@ -49,53 +49,56 @@ Adapun Struktur Folder Direktori dari Project ini adalah :
 
 ```
 📁IoT2-WWebapp-QR-Code-Scanner/
-    ├── 📁arduino/
-    │   └─ esp32-cam-barcode-scanner.ino              # File kode Arduino ESP32 CAM
-    ├── 📁barcode-scanner/                             # Backend Laravel untuk API dan Dashboard
+    ├── 📁images/                                      # Folder untuk Gambar-gambar
+    ├── 📁web-blog-laravel/                            # Backend Laravel untuk API dan Dashboard
     │   ├── 📁app/
     │   │   ├── 📁Http/
     │   │   │   ├── 📁Controllers/
-    │   │   │   │   ├── 📁API/
-    │   │   │   │   │   ├── InventoryApiController.php # Controller untuk API
-    │   │   │   │   └── 📁Web/
-    │   │   │   │       └── InventoryController.php    # Controller untuk halaman produk
+    │   │   │   │   └── PostController.php              # Controller untuk Postingan Blog
     │   │   ├── 📁Models/
-    │   │   │   └── Inventory.php                      # Model untuk tabel inventory
+    │   │   │   ├── Category.php                        # Model untuk tabel Kategori
+    │   │   │   ├── Post.php                            # Model untuk tabel Postingan
+    │   │   │   └── User.php                            # Model untuk tabel User
     │   │   ├── 📁Providers/
     │   │   └── 📁Services/
     │   ├── 📁config/
     │   ├── 📁database/
     │   │   ├── 📁factories/
     │   │   ├── 📁migrations/
-    │   │   │   └── 2024_12_11_021910_create_inventory_table.php    # Migration tabel inventory
+    │   │   │   ├── 0001_01_01_000000_create_users_table.php         # Migration tabel User
+    │   │   │   ├── 2024_12_23_164809_create_posts_table.php         # Migration tabel Postingan
+    │   │   │   └── 2024_12_25_164004_create_categories_table.php    # Migration tabel Kategori
     │   │   └── 📁seeders/
     │   │       └── InventorySeeder.php                # Seeder untuk data dummy inventory
     │   ├── 📁public/
     │   │   ├── 📁css/
     │   │   │   └── style.css                          # File CSS
     │   │   └── 📁js/
-    │   │       └── script.js                          # File JavaScript
+    │   │       └── script.js                          # File JavaScript (Bila dibutuhkan)
     │   ├── 📁resources/
     │   │   └── 📁views/
     │   │       ├── 📁layouts/
     │   │       │   └── main.blade.php                 # Layout utama untuk Laravel Blade
     │   │       ├── partials/
-    │   │       │   ├── navbar.blade.php               # Layout Navbar untuk Laravel Blade
-    │   │       │   └── sidenav.blade.php              # Layout Side Navigation untuk Laravel Blade
-    │   │       ├── index.blade.php                    # Halaman dashboard utama
-    │   │       ├── products.blade.php                 # Halaman untuk data produk
-    │   │       ├── scanner.blade.php                  # Halaman untuk tampilan produk yang di scan
-    │   │       ├── edit_product.blade.php             # Halaman edit produk
-    │   │       ├── update_product.blade.php           # Halaman update produk
-    │   │       └── delete_product.blade.php           # Halaman hapus produk (destroy)
+    │   │       │   └── navbar.blade.php               # Layout Navbar untuk Laravel Blade
+    │   │       ├── about.blade.php                    # Halaman Tentang Kami
+    │   │       ├── categories.blade.php               # Halaman untuk menampilkan Daftar Kategori
+    │   │       ├── cateogry.blade.php                 # Halaman untuk menampilkan Postingan pada Kategori
+    │   │       ├── home.blade.php                     # Halaman Utama (Homepage)
+    │   │       ├── post.blade.php                     # Halaman pada salah satu Potingan
+    │   │       └── posts.blade.php                    # Halaman Potingan Artikel Blog
     │   ├── 📁routes/
-    │   │   ├── api.php                                # Endpoint untuk API
     │   │   └── web.php                                # Route untuk halaman web
     │   ├── 📁storage/
     │   │── 📁tests/
     │   └── .env
-    ├── 📁python-opencv/                               # Program Python OpenCV
-    │   └── barcode_scanner.py                         # Script Python untuk membaca QR Code
+    ├── 📁website-blog-ui/                             # Program Python OpenCV
+    │   ├── 📁css/
+    │   │   └── style.css                              # File CSS
+    │   │── 📁js/
+    │   │   └── script.js                              # File JavaScript (Bila dibutuhkan)
+    │   │── 📁pages/
+    │   └── index.html                                 # File HTML
     └── README.md                                      # Panduan proyek keseluruhan
 ```
 
