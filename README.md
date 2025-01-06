@@ -12,6 +12,21 @@ Inilah Tampilan Sederhana dari Aplikasi Web Blog menggunakan Laravel :
 \
 ![Web Blog Application GUI](./images/tampilan-website-blog-sederhana-dengan-laravel.jpg)
 
+Tampilan saat mengeklik Artikel :
+\
+\
+![Tampilan Artikel](./images/tampilan-artikel-web-blog-sederhana-dengan-laravel.jpg)
+
+Tampilan saat mengeklik Nama Penulis :
+\
+\
+![Tampilan Postingan Blog pada Nama Penulis](./images/tampilan-artikel-web-blog-sederhana-dengan-mengeklik-nama-penulis-di-laravel.jpg)
+
+Tampilan saat mengeklik Kategori :
+\
+\
+![Tampilan Postingan Blog pada Kategori](./images/tampilan-artikel-web-blog-sederhana-dengan-mengeklik-nama-kategori-di-laravel.jpg)
+
 ## Proses Instalasi
 
 Berikut ini adalah Proses Instalasi hingga Pembuatan Project ini :
