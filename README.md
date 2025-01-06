@@ -64,6 +64,8 @@ Adapun Struktur Folder Direktori dari Project ini adalah :
     │   ├── 📁config/
     │   ├── 📁database/
     │   │   ├── 📁factories/
+    │   │   │   ├── PostFactory.php                     # Factory Postingan
+    │   │   │   └── UserFactory.php                     # Factory User
     │   │   ├── 📁migrations/
     │   │   │   ├── 0001_01_01_000000_create_users_table.php         # Migration tabel User
     │   │   │   ├── 2024_12_23_164809_create_posts_table.php         # Migration tabel Postingan
